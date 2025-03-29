@@ -1,0 +1,30 @@
+# Blood Donation Prediction using Machine Learning  
+
+## Project Overview  
+This project predicts whether a person will donate blood based on their past donation history. It uses **Machine Learning (Random Forest Classifier)** to analyze past donations and predict future ones.  
+
+## Dataset Information  
+The dataset used in this project comes from the **Blood Transfusion Service Center (Hsin-Chu City, Taiwan)** and contains **748 donor records**. The key features include:  
+
+- **Recency (months):** Months since the last blood donation.  
+- **Frequency (times):** Total number of donations made.  
+- **Monetary (c.c. blood):** Total blood donated (in c.c.).  
+- **Time (months):** Time since the first donation.  
+- **Target Variable:** Whether the donor donated blood in **March 2007** (`1 = Yes`, `0 = No`).  
+
+## Technologies Used  
+- **Python**  
+- **Pandas & NumPy**  
+- **Scikit-learn (Random Forest)**  
+- **Jupyter Notebook**  
+
+## How to Run the Project  
+Follow these steps to run the project on your system:  
+
+1. **Clone this repository**  
+   ```bash
+   git clone https://github.com/yourusername/blood-donation-prediction.git
+   cd blood-donation-prediction
+pip install -r requirements.txt
+python main.py
+
