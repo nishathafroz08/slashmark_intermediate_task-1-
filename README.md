@@ -22,6 +22,7 @@ The Random Forest Classifier was trained with different configurations:
 - **Optimized Model (200 Trees)**: Improved accuracy to **72.67%**.
 
 ## Project Structure 
+'''
 
 ├── datasets/                 # Contains the blood donation dataset
 ├── script.py                 # Main Python script for model training
